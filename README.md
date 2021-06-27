@@ -1,4 +1,6 @@
-## Quick start
+<div align="center">
+  <h1>Quick start</h1>
+</div>
 
 ```
 cd REPOSITORY_ROOT
@@ -6,6 +8,8 @@ wasm-pack build
 cd www/
 npm run start
 ```
+
+<hr/>
 
 <div align="center">
 
