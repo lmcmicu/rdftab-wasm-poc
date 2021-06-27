@@ -35,7 +35,7 @@ thin_rows.by_stanza["ex:foo"] = [
 // Call the Rust WASM code to convert the thin rows to thick rows:
 let thick_rows = thin_to_thick(thin_rows);
 
-// Note that the code to generate the thick triples table is loosely based on:
+// Note that the code to render the thick triples into a table is loosely based on:
 // https://www.encodedna.com/javascript/populate-json-data-to-html-table-using-javascript.htm
 var col = ["subject", "predicate", "object", "value", "datatype", "language", "annotations",
            "metadata"];
