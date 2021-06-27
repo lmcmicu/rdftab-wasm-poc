@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hello wasm-pack!</title>
+    <style>
+
+      p, input {
+          font:14px Verdana;
+      }
+
+      table, th, td 
+      {
+          border: solid 1px #DDD;
+          border-collapse: collapse;
+          padding: 2px 3px;
+      }
+
+      th {
+          text-align: center;
+          font-weight: bold;
+      }
+
+      td {
+          text-align: left;
+          font-family: monospace;
+          white-space: pre;
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>This page contains webassembly and javascript content, please enable javascript in your browser.</noscript>
+    <div>
+      <h1>Thin Rows</h1>
+      <pre id="thin-triples"></pre>
+
+      <h1>Thick Rows</h1>
+      <p id="thick-triples"></p>
+    </div>
+    <script src="./bootstrap.js"></script>
+  </body>
+</html>
