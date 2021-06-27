@@ -4,10 +4,14 @@
 
 ```
 cd REPOSITORY_ROOT
+cargo install wasm-pack
 wasm-pack build
 cd www/
+npm install
 npm run start
 ```
+
+When you have completed the above steps, point your browser to localhost:8080.
 
 <hr/>
 
