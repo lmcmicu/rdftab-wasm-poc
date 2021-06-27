@@ -1,3 +1,12 @@
+## Quick start
+
+```
+cd REPOSITORY_ROOT
+wasm-pack build
+cd www/
+npm run start
+```
+
 <div align="center">
 
   <h1><code>wasm-pack-template</code></h1>
