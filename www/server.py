@@ -1,3 +1,5 @@
+# This code is copied from https://dev.to/dandyvica/wasm-in-rust-without-nodejs-2e0c
+
 import http.server
 import socketserver
 
