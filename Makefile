@@ -12,11 +12,11 @@ webapp: www/rdftab_wasm_poc.js www/rdftab_wasm_poc_bg.wasm
 
 www/rdftab_wasm_poc.js: $(release_dir)/rdftab_wasm_poc.js
 	rm -f $@
-	cp -f $< www/
+	cp -f $< $@
 
 www/rdftab_wasm_poc_bg.wasm: $(release_dir)/rdftab_wasm_poc_bg.wasm
 	rm -f $@
-	cp -f $< www/
+	cp -f $< $@
 
 $(release_dir)/rdftab_wasm_poc.js: $(release_dir)/rdftab_wasm_poc_bg.wasm
 
